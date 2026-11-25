@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankush | Personal Website</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080812;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #29243c;
+}
+
+.logo {
+  color: #ad8aff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  background: radial-gradient(circle, #30205c, #080812 70%);
+}
+
+.hero p {
+  color: #ad8aff;
+  letter-spacing: 4px;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 9vw, 75px);
+  margin: 25px 0;
+}
+
+.hero span {
+  color: #ad8aff;
+}
+
+.hero h3 {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  background: #8955ee;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+section {
+  padding: 75px 8%;
+  text-align: center;
+}
+
+h2 {
+  color: #ad8aff;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.about {
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.8;
+  color: #bbb;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+  margin-top: 35px;
+}
+
+.card {
+  background: #171727;
+  padding: 28px 15px;
+  border: 1px solid #393052;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #ad8aff;
+  box-shadow: 0 0 20px #8955ee55;
+}
+
+.card h3 {
+  color: #c5adff;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.social a {
+  display: inline-block;
+  margin: 8px;
+  padding: 13px 22px;
+  background: #171727;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #393052;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  color: #888;
+  border-top: 1px solid #29243c;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">ANKUSH.</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <p>WELCOME TO MY WORLD</p>
+  <h1>HEY, I'M <span>ANKUSH.</span></h1>
+  <h3>Multi-Talented | Creative | Tech Lover</h3>
+  <a href="#about" class="btn">Explore My World ↗</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="about">
+    Just a guy with random thoughts, big dreams
+    and multiple talents. I love technology,
+    gaming, creativity and exploring new things.
+    Always curious, always learning and always
+    trying something new.
+  </p>
+</section>
+
+<section id="hobbies">
+  <h2>My Hobbies & Interests</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>🎮 Gaming</h3>
+      <p>Gaming and exploring new adventures.</p>
+    </div>
+
+    <div class="card">
+      <h3>💻 Technology</h3>
+      <p>Exploring tech, computers and gadgets.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎬 Content Creation</h3>
+      <p>Creating videos and digital content.</p>
+    </div>
+
+    <div class="card">
+      <h3>⛏️ Minecraft</h3>
+      <p>Building worlds and enjoying survival.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎨 Creativity</h3>
+      <p>Designing and trying creative projects.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚀 Learning</h3>
+      <p>Learning new skills and discovering ideas.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="socials">
+  <h2>Find Me Online</h2>
+  <div class="social">
+    <a href="https://instagram.com/" target="_blank">Instagram</a>
+    <a href="https://youtube.com/" target="_blank">YouTube</a>
+    <a href="https://discord.com/" target="_blank">Discord</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 ANKUSH. Made with creativity.
+</footer>
+
+</body>
+</html>
